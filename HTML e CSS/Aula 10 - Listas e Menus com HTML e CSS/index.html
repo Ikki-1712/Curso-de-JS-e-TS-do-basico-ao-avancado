@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu HTML</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body li, body dl, body p {
+            margin-left: 30px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            background-color: red;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 10px 20px;
+            display: block;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <ol type="I" start="1">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <dl>
+        <dt>Café</dt>
+        <dd>Bebida quente e escura</dd>
+        <dt>Leite</dt>
+        <dd>Bebida gelada branca</dd>
+    </dl>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto dolorem odit, quidem eius ipsum odio sunt libero
+        non dolorum veritatis reprehenderit delectus nostrum recusandae <a
+            style="padding: 20px 0; background: red; display: block; " href="">quaerat</a> voluptas aliquam. Harum,
+        soluta alias?</p>
+</body>
+
+</html>
